@@ -1,0 +1,836 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Universal Principles of Design</title>
+
+	<meta name="description" content="Must know design principles for any software developer">
+	<meta name="author" content="Rares Portan">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/ux.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				<h1>Universal Principles of Design</h1>
+				<p>
+					<small>Rares Portan</small>
+				</p>
+			</section>
+
+			<section>
+				<p>
+					There are many design fields. <br />
+					But common design principles are everywhere. <br />
+					<b>We cand use these principles to make better software.</b>
+				</p>
+			</section>
+
+			<section>
+				<p>
+					Make better designs by <br />better understanding <em>humans</em>
+				</p>
+			</section>
+
+			<section>
+				<p>
+					Make better software by <br />better understanding <em>humans</em>
+				</p>
+			</section>
+
+			<section>
+				<p>
+					Every software developer should know these principles:
+				</p>
+			</section>
+
+
+			<section class='chapter' data-background="imgs/docs.png">
+				<h2>80/20 Rule</h2>
+				<p>
+					A high percentage of effects in any large system<br /> are
+					caused by a low percentage of variables.
+				</p>
+			</section>
+			<section class='article' data-background="imgs/word.jpg">
+				<p style="background: red; color: #fff; text-align: center;">
+					Do not do this!
+				</p>
+			</section>
+			<section>
+				<ul>
+					<li><em>80%</em> of a product's usage involves <em>20%</em> of its features.</li>
+					<li><em>80%</em> of a town's traffic is on <em>20%</em> of its roads.</li>
+					<li><em>80%</em> of a company's revenue comes from <em>20%</em> of its products.</li>
+					<li><em>80%</em> of innovation comes from <em>20%</em> of the people.</li>
+					<li><em>80%</em> of progress comes from <em>20%</em> of the effort.</li>
+					<li><em>80%</em> of errors are caused by <em>20%</em> of the components.</li>
+				</ul>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>80/20 Rule</h3>
+				<ul>
+					<li>Focus resources on core features</li>
+					<li>Improve efficiency of core features</li>
+					<li>Minimize effort on noncritical features</li>
+					<li>Emphasize core features</li>
+					<li>Make noncritical features harder to find</li>
+				</ul>
+			</section>
+
+
+
+			<section class='chapter'>
+				<h2>Aesthetic-Usability Effect</h2>
+				<p>
+					Aesthetic designs are easier to
+					use<br /> than less-aesthetic designs.
+				</p>
+			</section>
+			<section class='article half' data-background="imgs/imac.png" data-background-size="1300px"
+				data-background-position="700px">
+				<h3>Aesthetic designs</h3>
+				<ul>
+					<li>Look easier to use</li>
+					<li>Are easily accepted</li>
+					<li>Make people more tolerant to problems</li>
+				</ul>
+			</section>
+			<section class='article half' data-background="imgs/pc.jpg" data-background-size="900px"
+				data-background-position="600px">
+				<h3>Less-aesthetic designs</h3>
+				<ul>
+					<li>Look harder to use</li>
+					<li>Are not easily accepted</li>
+					<li>Make people more intolerant of problems</li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_rooms.jpg">
+				<p style="background: red; color: #fff; text-align: center;">
+					But do not sacrifice usability for aesthetics! <br />
+					Where is room 201?
+				</p>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Aesthetic-Usability Effect</h3>
+				<ul>
+					<li>Make beautiful UIs</li>
+					<li>Design better APIs</li>
+					<li>Improve code readability</li>
+					<li>Clean up the code</li>
+				</ul>
+			</section>
+
+
+			<section class='chapter'>
+				<h2>Chunking</h2>
+				<p>
+					Split information into chunks.
+				</p>
+			</section>
+			<section data-background="imgs/menu.jpg" data-background-transition="fade">
+			</section>
+			<section class='article'>
+				<ul>
+					<li>Chunk = unit of information in <em>short-term memory</em></li>
+					<li>People recall, retain and use information much better when the info is chunked</li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/modules.jpg" data-background-size="1400px"></section>
+			<section class='article' data-background-size="600px" data-background-color="#1e1e1e"
+				data-background="imgs/cyclomatic.png" data-background-transition="fade">
+
+				<p style="background: red; color: #fff; text-align: center;">
+					Never write code like this! <br />
+					Split your code in chunks (functions, classes, modules).
+				</p>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Chunking</h3>
+				<ul>
+					<li>Split content in chunks</li>
+					<li>Split functionality in chunks</li>
+					<li>Split code in modules, classes, functions</li>
+					<li>Split large functions in many small functions with fewer parameters</li>
+				</ul>
+			</section>
+
+			<section class='chapter'>
+				<h2>Consistency</h2>
+				<p>
+					The usability of a system is improved when <br />
+					similar parts are expressed in similar ways.
+				</p>
+			</section>
+
+			<section class='article'>
+				<h3>Consistency enables people to</h3>
+				<ul>
+					<li>Efficiently transfer knowledge to new contexts</li>
+					<li>Learn new things quickly</li>
+					<li>Focus attention on the relevant aspects</li>
+				</ul>
+			</section>
+
+			<section>
+				<table>
+					<thead>
+						<tr>
+							<th style="white-space:nowrap">Consistency Type</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Aesthetic</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Functional</td>
+							<td>►❚❚</td>
+						</tr>
+						<tr>
+							<td>Internal</td>
+							<td>All buttons look the same</td>
+						</tr>
+						<tr>
+							<td>External</td>
+							<td>All links are blue and underlined on mouse over</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section data-background="imgs/consistency.png" data-background-transition="slide">
+			</section>
+			<section data-background="imgs/wtf_notbeer.jpg" data-background-size="700px"
+				data-background-transition="slide">
+
+				<p style="background: red; color: #fff; text-align: center;">
+					Do not use the wrong consistency!<br />
+					Putting radiator coolant in beer cans is a very bad idea.
+				</p>
+			</section>
+			<section data-background="imgs/inconsistency.png" data-background-size="700px"
+				data-background-transition="slide">
+			</section>
+			<section>
+				<p><b>Many APIs are not consistent for no reason:</b></p>
+				<p>
+					array.slice() <br />
+					array.splice()
+					<br />
+				</p>
+				<p>
+					api.remove(thing) <br />
+					api.delete(thing)
+				</p>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Consistency</h3>
+				<ul>
+					<li>Similar components should look and work the same</li>
+					<li>Use a consistent naming system</li>
+					<li>Use same icons for same things</li>
+					<li>Use same ideas, same patterns</li>
+				</ul>
+			</section>
+
+
+
+
+			<section class='chapter' style="text-align:left" data-background="imgs/constraints.png"
+				data-background-size="700px" data-background-position="700px">
+				<h2>Constraint</h2>
+				<p>
+					Limiting the actions<br /> performed on a system.
+				</p>
+			</section>
+			<section>
+				<table>
+					<thead>
+						<tr>
+							<th style="white-space:nowrap">Constraint Type</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Physical</td>
+							<td>Barriers, paths, connectors, interfaces</td>
+						</tr>
+						<tr>
+							<td>Psychological</td>
+							<td>Symbols ☠️, conventions 🚦, mappings ➕ 🔈➖</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<p>
+					The quality of system output is dependent on the quality of system input (Garbage In-Garbage Out).
+					<br />
+					<b>So you need to contraint the system inputs.</b>
+				</p>
+			</section>
+			<section data-background="imgs/wtf_phonenumber.jpg" data-background-size="700px"
+				data-background-transition="slide">
+				<p style="background: red; color: #fff; text-align: center;">
+					But do not exagerate!
+				</p>
+			</section>
+			<section data-background="imgs/wtf_volume.png" data-background-size="700px"
+				data-background-transition="slide">
+
+				<p style="background: red; color: #fff; text-align: center;">
+					I mean it!
+				</p>
+			</section>
+			<section data-background="imgs/wtf_name.jpg" data-background-position="0 1px"
+				data-background-transition="slide">
+
+				<p style="background: red; color: #fff; text-align: center;">
+					Think for a second!
+				</p>
+			</section>
+
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Use constraints to</h3>
+				<ul>
+					<li>Simplify usability</li>
+					<li>Minimize usage errors and unintentional inputs</li>
+					<li>Prevent or slow dangerous actions</li>
+				</ul>
+			</section>
+
+
+			<section class='chapter' data-background="imgs/hawaii-missile-alert-false.jpg"
+				data-background-brightness="dark" data-background-transition="fade">
+				<h2 style="color:#fff">Errors</h2>
+				<p style="color:#fff">
+					An action or omission of action <br /> yielding an unintended result
+				</p>
+			</section>
+			<section>
+				<p>
+					Most accidents are not caused by <em>human error</em>, <br />
+					they are caused by <em>design errors</em>.
+				</p>
+			</section>
+			<section class='article'>
+				<ul>
+					<li>Designs should help people avoid errors and minimize the negative consequences of errors when
+						they do occur
+						(Forgiveness)</li>
+					<li>The greater the effort to accomplish a task, the
+						less likely the task will be accomplished successfully (Performance load)</li>
+				</ul>
+			</section>
+			<section>
+				<p>
+					There are two basic types of errors: slips and mistakes.
+				</p>
+			</section>
+			<section class='article half' data-background="imgs/autocorrect.jpg" data-background-size="500px"
+				data-background-position="800px">
+				<h3>Slips</h3>
+				<ul>
+					<li>Errors of execution</li>
+					<li>Unintended actions</li>
+					<li>Result of automatic, unconscious processes</li>
+				</ul>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Minimize slips by</h3>
+				<ul>
+					<li>Providing clear feedback on actions.</li>
+					<li>Use constraints and affordances</li>
+					<li>Using confirmations to interrupt the flow and verify the action</li>
+				</ul>
+			</section>
+			<section class='article half' data-background="imgs/hawaii.jpg" data-background-size="1000px"
+				data-background-position="600px">
+				<h3>Mistakes</h3>
+				<ul>
+					<li>Errors of intention</li>
+					<li>Action is intended but inappropriate</li>
+					<li>Result of conscious mental processes</li>
+				</ul>
+			</section>
+			<section data-background="imgs/hawaii.jpg" data-background-size="1000px" data-background-position="600px">
+				<p
+					style="text-align: left; padding: 1rem; max-width: 500px; font-size: smaller; color:#fff; background-color: rgba(0,0,0,0.5);">
+					On the morning of Saturday, January 13, 2018, a ballistic missile alert was issued over television,
+					radio, and cellphones in the state of Hawaii. <br /><br />
+					Because of a human error. <br />
+					Instead of clicking the test alert link, somebody clicked the real alert link. <br /><br />
+					Because of bad design that could easily made better.
+				</p>
+			</section>
+			<section data-background="imgs/undo-missile.png" data-background-size="1000px">
+			</section>
+			<section data-background="imgs/confirm-missile.png" data-background-size="1000px">
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Minimize mistakes by</h3>
+				<ul>
+					<li>Increasing situational awareness</li>
+					<li>Reducing environmental noise</li>
+					<li>Provide corrective actions, if possible</li>
+					<li>Make error messages clear, and include the consequences of the error</li>
+					<li>Using confirmations that require multiple steps
+						to verify the intention of highly critical tasks.</li>
+				</ul>
+			</section>
+
+
+			<section class='chapter'>
+				<h2>Five Hat Racks</h2>
+				<p>
+					There are five ways to organize information: category, time, location, alphabet, and continuum.
+				</p>
+			</section>
+			<section class='article' data-background="imgs/sort.jpg" data-background-size="1000px"
+				data-background-position="500px">
+				<ul>
+					<li>Category</li>
+					<li>Time</li>
+					<li>Location</li>
+					<li>Alphabet</li>
+					<li>Continuum</li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/badgraph.png" data-background-size="1000px">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					How are these graphs organized? They are not. <br />
+					Use alphabetical order by default.
+				</p>
+			</section>
+
+			<section class='article' data-background="imgs/rivers.jpg">
+			</section>
+			<section class='article' data-background="imgs/tube.gif">
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Organize data in one of the five ways to</h3>
+				<ul>
+					<li>Improve design understanding</li>
+					<li>Reduce cognitive dissonance</li>
+					<li>Influence the way people think about and interact with a design</li>
+				</ul>
+			</section>
+
+
+			<section class='chapter'>
+				<h2>Flexibility-Usability Tradeoff</h2>
+				<p>
+					As the flexibility of a system increases, <br />
+					its usability decreases.
+				</p>
+			</section>
+			<section>
+				<ul>
+					<li>The time it takes to make a decision increases as the
+						number of alternatives increases. (Hick's Law)</li>
+					<li>The level of control provided by a system should be related
+						to the proficiency and experience levels of the people using the system. </li>
+				</ul>
+			</section>
+			<section class='article half' data-background="imgs/flexible.jpg" data-background-size="1000px"
+				data-background-position="600px">
+				<h3>Flexible designs</h3>
+				<ul>
+					<li>Fits more requirements</li>
+					<li>Performs more functions but less efficiently</li>
+					<li>Complex, harder to use</li>
+					<li>Preferred when the system usage is hard to anticipate</li>
+				</ul>
+			</section>
+			<section class='article half' data-background="imgs/appleremote.jpeg" data-background-size="700px"
+				data-background-position="600px">
+				<h3>Inflexible designs</h3>
+				<ul>
+					<li>Fits few requirements</li>
+					<li>Performs limited functions but very efficiently</li>
+					<li>Simple, easier to use</li>
+					<li>Preferred when the system usage is clear</li>
+				</ul>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Flexibility-Usability Tradeoff</h3>
+				<ul>
+					<li>Start with the most simple design</li>
+					<li>Complicate only if necessary</li>
+					<li>Design for the simple, common use case</li>
+					<li>Allow parameters, configurations or controls for advanced use cases</li>
+					<li>Provide both GUI and CLI</li>
+					<li>Use progressive disclosure for advanced use cases</li>
+				</ul>
+			</section>
+
+
+
+			<section class='chapter'>
+				<h2>Hierarchy of Needs</h2>
+				<p>
+					A successful design meets people's <em>basic needs</em> <br />
+					before it can attempt to satisfy <em>higher level needs</em>
+				</p>
+			</section>
+			<section class='article' data-background="imgs/piramid.png" data-background-size="1200px">
+			</section>
+			<section class='article'>
+				<h3>Design's Hierarchy of Needs</h3>
+				<p>
+					<em>Good designs</em> follow the hierarchy of needs principle.
+				</p>
+				<p>
+					<em>Poor designs</em> skip various levels.
+				</p>
+			</section>
+			</section>
+			<section class='article half' data-background="imgs/piramid1.png" data-background-size="800px"
+				data-background-position="700px">
+				<h3>Functionality</h3>
+				<ul>
+					<li>Meets the most basic design requirements</li>
+					<li>Designs at this level are perceived to be of <em>no value.</em></li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_airfrance.jpg" data-background-size="400px">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					There are designs that fail even to function. <br />
+					Do not do this!
+				</p>
+			</section>
+			</section>
+			<section class='article half' data-background="imgs/piramid2.png" data-background-size="800px"
+				data-background-position="700px">
+				<h3>Reliability</h3>
+				<ul>
+					<li>Stable and consistent performance</li>
+					<li>Designs at this level are perceived to be of <em>low value.</em></li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_reliability.jpg">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					Do not sacrifice reliability! <br />
+					Never build a Three wheel car Robin
+				</p>
+			</section>
+			<section class='article' data-background="imgs/tesla-diagram.jpg" data-background-size="1000px">
+				<p style="background: rgba(0,0,0,0.5); color: #fff; text-align: center; margin-top: 500px;">
+					Design things to be more reliable!
+				</p>
+			</section>
+			<section class='article half' data-background="imgs/piramid3.png" data-background-size="800px"
+				data-background-position="700px">
+				<h3>Usability</h3>
+				<ul>
+					<li>How easy and forgiving a design is to use.</li>
+					<li>Designs at this level are perceived to be of <em>moderate value.</em></li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_glass.jpg">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					Do not sacrifice usability! <br />
+					Do not use dark patterns.
+				</p>
+			</section>
+			<section class='article' data-background="imgs/mercedes.jpg">
+				<p style="background: rgba(0,0,0,0.5); color: #fff; text-align: center; margin-top: 500px;">
+					Design things to be more usable!
+				</p>
+			</section>
+			<section class='article half' data-background="imgs/piramid4.png" data-background-size="800px"
+				data-background-position="700px">
+				<h3>Proficiency</h3>
+				<ul>
+					<li>Do things better than they could previously.</li>
+					<li>Designs at this level are perceived to be of <em>high value.</em></li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_proficient.jpg" data-background-size="1000px">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					Doing things better doesn't mean doing more things! <br />
+				</p>
+			</section>
+			<section class='article' data-background="imgs/modules.jpg" data-background-size="1400px">
+				<p style="background: rgba(0,0,0,0.5); color: #fff; text-align: center; margin-top: 500px;">
+					Proficient designs can be usable too!
+				</p>
+			</section>
+			<section class='article half' data-background="imgs/piramid5.png" data-background-size="800px"
+				data-background-position="700px">
+				<h3>Creativity</h3>
+				<ul>
+					<li>Interacting with the design in innovative ways.</li>
+					<li>Designs at this level are perceived to be of <em>highest value.</em></li>
+					<li>These designs often achieve <em>cult-like loyalty</em> among users. </li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/wtf_creative.jpg" data-background-size="1000px">
+				<p style="background: red; color: #fff; text-align: center; margin-top: 500px;">
+					Extreme creativity, pack a console in a mobile phone! <br />
+				</p>
+			</section>
+			<section data-background="imgs/consistency.png" data-background-transition="slide">
+				<p style="background: rgba(0,0,0,0.5); color: #fff; text-align: center; margin-top: 500px;">
+					An iconic example of creative design.
+				</p>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<ul>
+					<li>Implement key functionality (and fix existing broken functionality)</li>
+					<li class="fragment">Fix crashes, preserve data integrity and user privacy, minimise down time.</li>
+					<li class="fragment">Address annoying lag, choppy performance, inconsistencies</li>
+					<li class="fragment">Relentlessly optimise and refine</li>
+					<li class="fragment">Deligh users with surprise, originality, beauty and usefulness</li>
+				</ul>
+			</section>
+
+
+
+			<section class='chapter'>
+				<h2>Mental Model</h2>
+				<p>
+					People understand and interact with designs based on <br />
+					mental representations developed from experience
+				</p>
+			</section>
+			<section class='article' data-background="imgs/designer.jpg" data-background-size="1000px"
+				data-background-color="#000"></section>
+			<section>
+				<ul>
+					<li>When people are exposed to something new, they imagine how it works based on their existing
+						mental models</li>
+					<li>People try to map something new to something they already know</li>
+					<li>They interact with new design based on what they think it is</li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/mercedes.jpg"></section>
+			<section class='article' data-background="imgs/university_website.png" data-background-size="800px">
+			</section>
+			<section data-transition="fade">
+				<ul style="display:flex">
+					<li class="circle" stle="margin-left:60px">System model <br /> (Design model)</li>
+					<li class="circle" style="background-color:rgba(208,47,133,0.8); margin-left:-30px">Interaction
+						model <br />
+						(User model)</li>
+				</ul>
+			</section>
+			<section data-transition="fade">
+				<ul style="display:flex">
+					<li class="circle">System model <br /> (Design model)</li>
+					<li class="circle" style="background-color:rgba(208,47,133,0.8);margin-left:-300px">Interaction
+						model <br />
+						(User model)</li>
+				</ul>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Designer Model = User Model</h3>
+				<ul>
+					<li>Design with people's interaction models in mind.</li>
+					<li>Think about how people will interact with the design</li>
+					<li>Use standard or common mental models if possible (aim for consistency, use same ideas, patterns)
+					</li>
+					<li>Do code reviews, demos, gather feedback</li>
+					<li>Watch people interact with the design (public alpha, beta releases)</li>
+				</ul>
+			</section>
+
+			<section class='chapter'>
+				<h2>Modularity</h2>
+				<p>
+					Managing complexity by dividing large systems <br />
+					into multiple, smaller self contained systems
+				</p>
+			</section>
+			<section>
+				<p>
+					<em>Chunking principle</em> tells us to split information at all levels.
+				</p>
+				<p>
+					<em>Modularity principle</em> tells us to make systems from self-contained smaller systems.
+				</p>
+			</section>
+			<section class='article' data-background="imgs/rocket-diagram.png" data-background-size="1000px"></section>
+			<section class='article' data-background="imgs/tesla-diagram.jpg" data-background-size="1000px"></section>
+			<section class='article' data-background="imgs/human-diagram.jpg" data-background-size="1000px"></section>
+			<section>
+				<ul>
+					<li>It's about identifying <em>functional clusters of similarity</em> in systems,
+						and then transforming them into independent self-contained systems (modules)</li>
+					<li class="fragment">Modules hide their internal complexity and interact
+						with other modules through simple interface</li>
+					<li class="fragment">A modular system reduces system complexity which
+						improves reliability, flexibility, and maintainability</li>
+					<li class="fragment">A modular design encourages innovation and improvement of its modules</li>
+				</ul>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Modularity</h3>
+				<ul>
+					<li>Use it when designing or modifying complex systems</li>
+					<li>Consider the incremental modularization of existing systems, especially
+						during maintenance and product updates</li>
+					<li>Modular systems are significantly harder to design</li>
+					<li>Do not attempt complex modular designs without a
+						good understanding of the system</li>
+				</ul>
+			</section>
+
+			<section class='chapter'>
+				<h2>Ockham's Razor</h2>
+				<p>
+					Given a choice between equivalent designs, <br />
+					the simplest design should be selected
+				</p>
+			</section>
+			<section>
+				<blockquote>
+					&ldquo;Entities should not be multiplied without necessity.&rdquo; - William of Ockham
+				</blockquote>
+				<blockquote class="fragment">
+					&ldquo;Nature operates in the shortest way possible.&rdquo; - Aristotle
+				</blockquote>
+				<blockquote class="fragment">
+					&ldquo;Everything should be made as simple as possible, but not simpler.&rdquo; - Einstein
+				</blockquote>
+			</section>
+			<section class='article' data-background="imgs/data-ink.gif" data-background-size="800px"></section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<h3>Choose the simplest design</h3>
+				<ul>
+					<li>Evaluate and select among multiple, functionally equivalent designs</li>
+					<li>Evaluate each element within the selected design and remove as
+						many as possible without compromising function</li>
+					<li>Minimize the expression of the remaining elements as much as possible
+						without compromising function</li>
+					<li>Improve signal-to-noise ratio</li>
+				</ul>
+			</section>
+
+			<section class='chapter'>
+				<h2>Redundancy</h2>
+				<p>
+					Use more elements than necessary to maintain the <br />
+					performance of a system in the event of failure.
+				</p>
+			</section>
+			<section>
+				<ul>
+					<li>System failure = system cannot achieve a goal.</li>
+					<li>Inevitable, some elements within a system will fail.</li>
+					<li>But, a whole system failure can be prevented using redundant elements.</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li>Diverse redundancy: <br /> use of multiple elements of different types <br /> (e.g. save on
+						local disk, cloud,
+						paper)</li>
+					<li>Homogenous redundancy:<br /> use of multiple elements of a single type (e.g. multiple deployment
+						zones )
+					</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li>Active redundancy:<br /> use of multiple elements all the time <br /> (e.g. multiple servers
+						with load
+						balancer in front)</li>
+					<li>Passive redundancy:<br /> use of replacement elements <br /> (e.g. replace broken server
+						instances)</li>
+				</ul>
+			</section>
+			<section class='article' data-background="imgs/aws.png" data-background-size="1200px"></section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<ul>
+					<li>Use diverse redundancy for critical systems when the causes of failure
+						cannot be anticipated</li>
+					<li> Use homogenous redundancy when the causes
+						of failure can be anticipated <br /><br /></li>
+					<li> Use active redundancy for critical systems that must
+						maintain stable performance</li>
+					<li> Use passive redundancy for noncritical elements within systems,
+						or when interruptions are tolerable</li>
+				</ul>
+			</section>
+
+
+			<section class='chapter'>
+				<h2>Visibility</h2>
+				<p>
+					The usability of a system is improved when its status <br />
+					and methods of use are clearly visible.
+				</p>
+			</section>
+			<section class='article' data-background="imgs/3mile.jpg">
+				<h3 class="stretch">
+					Three Mile Island<br /> Incident
+				</h3>
+			</section>
+			<section class='article half' data-background="imgs/3mile-control.jpg">
+				<p class="fragment" style="color: #fff; background-color:rgba(0,0,0,0.6); padding: 1rem">
+					4:00 AM, a malfunction
+				</p>
+				<p class="fragment" style="color: #fff; background-color:rgba(0,0,0,0.6); padding: 1rem">
+					Alarms are blaring, lights are flashing...
+				</p>
+				<p class="fragment" style="color: #fff; background-color:rgba(0,0,0,0.6); padding: 1rem">
+					Critical system feedback is routed to a printer that can only print
+					15 lines a minute!
+				</p>
+				<p class="fragment" style="color: #fff; background-color:rgba(0,0,0,0.6); padding: 1rem">
+					Status information is more than an hour behind.
+				</p>
+			</section>
+			<section class='article' data-background="#444" data-background-brightness="dark">
+				<ul>
+					<li>Clearly indicate the system status</li>
+					<li>Clearly indicate the actions that
+						can be performed, and their consequences.</li>
+					<li>Immediately acknowledge user actions with clear feedback</li>
+					<li>Use hierarchical organization and context sensitivity to minimize complexity and
+						maximize visibility</li>
+				</ul>
+			</section>
+
+
+			<section class="article half" data-background="imgs/upod.jpg" data-background-size="500px"
+				data-background-position="800px">
+				<p>Based on</p>
+				<h3>Universal Principles of Design</h3>
+				<p>By William Lidwell, Kritina Holden & Jill Butler </p>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/rvl.js"></script>
+
+	<script>
+		RVL.initialize({
+			controls: true,
+			fragmentInURL: true,
+			progress: true,
+			history: true,
+			center: true,
+			help: true,
+			slideNumber: true,
+			rollingLinks: true,
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			dependencies: []
+		});
+	</script>
+</body>
+
+</html>
